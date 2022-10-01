@@ -34,8 +34,6 @@ img.perfume-pic {
     margin-right: 10px;
     width: 50%;
     height: 100%;
-    /* position: absolute;
-    bottom: 5%; */
     margin-top: 0%;
 } 
 
@@ -45,21 +43,11 @@ p.name {
     padding: 0 auto;
     line-height: 40px;
     padding-right: 45px;
-    
-}
-
-p {
-    /* font-size: 20px; */
-    
 }
 
 #descriprtion {
-    /* line-height: 25px; */
-    /* padding-right: 10px;
-    margin-right: 10px; */
     font-size: 16px;
     padding-right: 70px;
-    
 }
 
 div.price {
@@ -85,7 +73,6 @@ div.price {
     bottom: 5px;
     font-size: 15px;
     padding-bottom: 0;
-    
 }
 
 .buy-button {
@@ -101,7 +88,6 @@ div.price {
     right: 10px;
     bottom: 25px;
     margin: 12px;
-  
 }
 
 
@@ -109,13 +95,11 @@ button:hover {
     cursor: pointer;
     background-color: hsl(158, 73%, 21%);
     opacity: 1;
-   
   }
 
 button:focus {
     border: 1px solid black;
 }
-
 
 }
 
