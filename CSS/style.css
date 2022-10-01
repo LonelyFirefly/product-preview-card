@@ -1,108 +1,106 @@
-@media screen and (min-width: 375px) {
-    
-    body {
-    @import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
-    background-color: hsl(30, 38%, 92%);
-    color: black;
-    position: absolute;
-    top: 15%;
-    left: 30%;
-    width: 40%;
-    height: 70%;  
-}   
+body {
+	background-color: hsl(30, 38%, 92%);
+	color: black;
+	width: 1440px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 15%;
+	left: 30%;
+	width: 40%;
+	height: 70%;
+}
 
 main {
-    background-color: aliceblue;
+	background-color: aliceblue;
+	border-radius: 10px;
 }
 
 #text-title {
-    text-align: left;
-    padding: 35px 15px 0 0;
-    font-size: 15px;
-    letter-spacing: 5px;
-    margin-bottom: bottom;
-    padding-bottom: 0;
+	text-align: left;
+	padding: 35px 15px 0 0;
+	font-size: 15px;
+	letter-spacing: 5px;
+	margin-bottom: bottom;
+	padding-bottom: 0;
 }
 
 .transparent {
-    opacity: 0.5;
+	opacity: 0.5;
 }
 
 img.perfume-pic {
-    float: left;
-    padding-right: 20px;
-    margin-right: 10px;
-    width: 50%;
-    height: 100%;
-    margin-top: 0%;
-} 
+	float: left;
+	padding-right: 20px;
+	margin-right: 10px;
+	width: 50%;
+	height: 100%;
+	margin-top: 0%;
+	border-radius: 10px;
+}
 
-p.name {
-    font-size: 35px;
-    margin: 0 auto;
-    padding: 0 auto;
-    line-height: 40px;
-    padding-right: 45px;
+.name {
+	font-size: 35px;
+	margin: 0 auto;
+	padding: 0 auto;
+	line-height: 40px;
+	padding-right: 45px;
+	font-weight: bold;
 }
 
 #descriprtion {
-    font-size: 16px;
-    padding-right: 70px;
+	font-size: 16px;
+	padding-right: 70px;
 }
 
 div.price {
-    margin-bottom: 0;
-    position: relative;
-    bottom: 20px;
+	margin-bottom: 0;
+	position: relative;
+	bottom: 20px;
 }
 
 .new-price {
-    color: hsl(158, 36%, 37%);
-    display: inline-block;
-    vertical-align: center;
-    font-size: 30px;
-    margin-right: 3%;
-    padding-bottom: 0;
+	color: hsl(158, 36%, 37%);
+	display: inline-block;
+	vertical-align: center;
+	font-size: 30px;
+	margin-right: 3%;
+	padding-bottom: 0;
 }
 
 .initial-price {
-    display: inline-block;
-    vertical-align: center;
-    text-decoration: line-through;
-    position: relative;
-    bottom: 5px;
-    font-size: 15px;
-    padding-bottom: 0;
+	display: inline-block;
+	vertical-align: center;
+	text-decoration: line-through;
+	position: relative;
+	bottom: 5px;
+	font-size: 15px;
+	padding-bottom: 0;
 }
 
 .buy-button {
-    background-color:  hsl(158, 36%, 37%);
-    color: white;
-    padding-top: 0;
-    margin-top: 0;
-    width: 16em;
-    height: 50px;
-    border-radius: 10px;
-    border-color: transparent;
-    position: relative;
-    right: 10px;
-    bottom: 25px;
-    margin: 12px;
+	background-color: hsl(158, 36%, 37%);
+	color: white;
+	padding-top: 0;
+	margin-top: 0;
+	width: 16em;
+	height: 50px;
+	border-radius: 10px;
+	border-color: transparent;
+	position: relative;
+	right: 10px;
+	bottom: 25px;
+	margin: 12px;
 }
-
 
 button:hover {
-    cursor: pointer;
-    background-color: hsl(158, 73%, 21%);
-    opacity: 1;
-  }
-
-button:focus {
-    border: 1px solid black;
+	cursor: pointer;
+	background-color: hsl(158, 73%, 21%);
+	opacity: 1;
 }
 
+button:focus {
+	border: 1px solid black;
 }
 
 @media screen and (max-width: 375px) {
-    
 }
