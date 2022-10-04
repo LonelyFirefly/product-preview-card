@@ -1,9 +1,6 @@
 html {
 	height: 100%;
 }
-body {
-	min-height: 100%;
-}
 
 body {
 	font-family: Montserrat;
@@ -11,6 +8,7 @@ body {
 	color: black;
 	box-sizing: border-box;
 	width: 574px;
+	min-height: 100%;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, 1fr);
 	align-items: center;
@@ -28,14 +26,24 @@ main {
 	grid-template-columns: 1fr 1fr;
 	gap: 20px;
 }
-
+/* 
 .pic-part {
 	display: flex;
-}
+} */
 
 .perfume-pic {
-	width: 100%;
+	/* display: flex; */
+	max-width: 100%;
+	height: 450px;
 	border-radius: 10px 0 0 10px;
+}
+
+.text-part {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	/* padding-left: 20px; */
+	/* padding: 20px 10px 10px 0; не знаю как лучше для читаемости кода*/
 }
 
 /* .text-part {
@@ -52,11 +60,9 @@ main {
 	display: grid;
 	align-items: center;
 	margin-right: auto;
-	margin-top: 20px;
 }
 
 .name {
-	/* grid-area: area2; */
 	font-size: 35px;
 	margin: 0 auto;
 	padding: 0 auto;
@@ -65,7 +71,7 @@ main {
 	font-weight: bold;
 }
 
-#descriprtion {
+.descriprtion {
 	font-size: 14px;
 	padding-right: 10px;
 	margin-bottom: 0;
@@ -100,7 +106,7 @@ main {
 	height: 50px;
 	border-radius: 10px;
 	border: transparent;
-	margin-bottom: 25px;
+	/* margin-bottom: 25px; */
 }
 
 button:hover {
