@@ -1,20 +1,21 @@
+html {
+	height: 100%;
+}
+body {
+	min-height: 100%;
+}
+
 body {
 	font-family: Montserrat;
 	background-color: hsl(30, 38%, 92%);
 	color: black;
-	max-width: 1440px;
 	box-sizing: border-box;
-	position: absolute;
-	top: 15%;
-	left: 30%;
-	width: 40%;
-	height: 70%;
-	font-size: 16px;
-}
-
-.price,
-.name {
-	font-family: Fraunces;
+	width: 574px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 1fr);
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 main {
@@ -22,27 +23,40 @@ main {
 	border-radius: 10px;
 }
 
-.text-title {
-	text-align: left;
-	padding: 35px 15px 0 0;
-	margin-top: 10px;
-	font-size: 15px;
-	letter-spacing: 5px;
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
 }
 
-.transparent,
-.initial-price {
-	opacity: 0.8;
+.pic-part {
+	display: flex;
 }
 
 .perfume-pic {
-	float: left;
-	padding-right: 20px;
-	width: 50%;
-	border-radius: 10px;
+	width: 100%;
+	border-radius: 10px 0 0 10px;
+}
+
+/* .text-part {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+} */
+
+.price,
+.name {
+	font-family: Fraunces;
+}
+
+.text-title {
+	display: grid;
+	align-items: center;
+	margin-right: auto;
+	margin-top: 20px;
 }
 
 .name {
+	/* grid-area: area2; */
 	font-size: 35px;
 	margin: 0 auto;
 	padding: 0 auto;
@@ -53,40 +67,40 @@ main {
 
 #descriprtion {
 	font-size: 14px;
-	padding-right: 2em;
+	padding-right: 10px;
 	margin-bottom: 0;
+}
+
+.transparent,
+.initial-price {
+	opacity: 0.8;
+}
+
+.price {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 }
 
 .new-price {
 	color: hsl(158, 36%, 37%);
 	display: inline-block;
 	font-size: 30px;
-	margin-top: 5%;
-	padding-bottom: 0;
-	margin-right: 5px;
-	/* margin-bottom: 10%; */
-	padding: 2px;
 }
 
 .initial-price {
-	display: inline-block;
 	text-decoration: line-through;
-	bottom: 5px;
-	font-size: 15px;
-	padding-bottom: 0;
+	display: grid;
+	align-items: center;
 }
 
 .buy-button {
 	background-color: hsl(158, 36%, 37%);
 	color: white;
-	padding-top: 0;
-	margin-top: 0;
-	width: 16em;
+	width: 250px;
 	height: 50px;
 	border-radius: 10px;
-	border: none;
-	margin-right: 2em;
-	margin-bottom: 2em;
+	border: transparent;
+	margin-bottom: 25px;
 }
 
 button:hover {
