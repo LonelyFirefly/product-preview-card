@@ -16,10 +16,17 @@
 	<body>
 		<main>
 			<div class="product">
-				<img
-					src="../images/image-product-desktop.jpg"
-					alt="product"
-					class="product__image" />
+				<picture>
+					<source
+						media="(max-width: 600px)"
+						srcset="../images/image-product-mobile.jpg"
+						class="product__image" />
+					<img
+						src="../images/image-product-desktop.jpg"
+						alt="product"
+						class="product__image" />
+				</picture>
+
 				<div class="product__info">
 					<p class="product__type">PERFUME</p>
 

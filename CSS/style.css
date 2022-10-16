@@ -7,7 +7,7 @@
 	--dark-text-light: hsl(228, 12%, 48%);
 	--text-opacity: 0.8;
 	--text-decoration-line: line-through;
-	--text-transform: translateY(2px);
+	--text-transform: translateY(10px);
 	--bottom-margin: 25px;
 	--text-line-height: 20px;
 
@@ -102,10 +102,10 @@ main {
 	background-color: var(--clr-accent);
 	border-radius: 5px;
 	border: none;
-	display: flex;
-	/* grid-template-columns: 40px 40px; */
-	padding: 15px 70px;
-	margin-top: 10px;
+	display: block;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .cart-icon {
@@ -118,11 +118,24 @@ main {
 
 .button:hover {
 	background-color: var(--clr-accent-dark);
+	transition: 1s;
 }
 
 .button:active {
 	transform: var(--text-transform);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
+	.product {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.product__image {
+		border-radius: 10px 10px 0 0;
+	}
+
+	.button {
+		width: 100%;
+	}
 }
