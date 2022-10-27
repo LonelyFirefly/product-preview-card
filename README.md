@@ -5,7 +5,7 @@
   <a href="https://www.linkedin.com/in/daniil-kalugin">
     <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn Badge"/>
   </a>
-  <a href="@BeingMyselfFlow">
+  <a href="https://twitter.com/BeingMyselfFlow">
     <img src="https://img.shields.io/badge/Twitter-blue?logo=twitter&logoColor=white&style=for-the-badge" alt="Twitter Badge"/>
   </a>
 </div>
