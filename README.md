@@ -36,9 +36,17 @@ I am a Frontend Developer: <img src="https://media.giphy.com/media/MdA16VIoXKKxN
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
 </div>
 
+<div id='stats' align="center">
+  
 ---
 
 ### :fire: My Stats :
 [![GitHub Streak](https://streak-stats.demolab.com?user=LonelyFirefly&theme=highcontrast&border_radius=10)](https://git.io/streak-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LonelyFirefly&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
+</div>
+
+---
+
+### :writing_hand: Blog Posts :
+
