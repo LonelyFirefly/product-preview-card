@@ -11,3 +11,5 @@ This is a Product card sample you can use in your online-store
 - CSS animations
 - CSS Grid
 - CSS Flexbox
+- Variable naming
+- Responsive web design
