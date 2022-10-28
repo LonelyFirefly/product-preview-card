@@ -1,0 +1,143 @@
+:root {
+	--clr-accent: hsl(158, 36%, 37%);
+	--clr-accent-dark: hsl(158, 66%, 17%);
+	--clr-background: hsl(30, 38%, 92%);
+	--clr-text: hsl(212, 21%, 14%);
+	--clr-surface: hsl(0, 0%, 100%);
+	--dark-text-light: hsl(228, 12%, 48%);
+	--text-opacity: 0.6;
+
+	--fs: 14px;
+	--fs-larger: 30px;
+	--fw-medium: 500;
+	--fw-bold: 700;
+}
+
+*,
+::before,
+::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body,
+main {
+	height: 100%;
+}
+
+body {
+	font-family: Montserrat, serif;
+	font-size: var(--fs);
+	font-weight: var(--fw-medium);
+	color: var(--clr-text);
+	background-color: var(--clr-background);
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.product {
+	max-width: 600px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	background-color: var(--clr-surface);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.product__image {
+	display: block;
+	width: 100%;
+}
+
+.product__info {
+	padding: 30px;
+}
+
+.product__type {
+	opacity: var(--text-opacity);
+	margin-bottom: 25px;
+	letter-spacing: 4px;
+}
+
+.product__name {
+	font-family: Fraunces, serif;
+	font-weight: var(--fw-bold);
+	margin-bottom: 25px;
+}
+
+.product__description {
+	opacity: var(--text-opacity);
+	margin-bottom: 30px;
+	line-height: 20px;
+}
+
+.product__prices {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	margin-bottom: 25px;
+}
+
+.product__price--discount {
+	font-family: Fraunces, serif;
+	color: var(--clr-accent);
+	font-weight: var(--fw-bold);
+	font-size: var(--fs-larger);
+}
+
+.product__price--old {
+	opacity: var(--text-opacity);
+	text-decoration: line-through;
+	align-self: center;
+}
+
+.button {
+	background-color: var(--clr-accent);
+	border-radius: 5px;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.button__text {
+	color: var(--clr-surface);
+	font-weight: var(--fw-bold);
+}
+
+.button:hover {
+	background-color: var(--clr-accent-dark);
+	transition: 1s;
+	cursor: pointer;
+}
+
+.button:active {
+	transform: translateY(10px);
+}
+
+@media screen and (max-width: 600px) {
+	main {
+		padding: 0 20px;
+	}
+	.product {
+		display: flex;
+		flex-direction: column;
+		margin: 15px;
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+
+	.button {
+		width: 100%;
+	}
+}
