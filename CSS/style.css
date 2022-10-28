@@ -103,8 +103,8 @@ main {
 	border: none;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	gap: 10px;
-
 	width: 100%;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -126,6 +126,9 @@ main {
 }
 
 @media screen and (max-width: 600px) {
+	main {
+		padding: 0 20px;
+	}
 	.product {
 		display: flex;
 		flex-direction: column;
