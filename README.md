@@ -13,3 +13,6 @@ This is a Product card sample you can use in your online-store
 - CSS Flexbox
 - Variable naming
 - Responsive web design
+
+### Distribute
+You can see this sample on <a href="https://product-preview-card-oprt7vjb8-lonelyfirefly.vercel.app">vercel.com</a>
