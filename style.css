@@ -127,6 +127,7 @@ main {
 
 @media screen and (max-width: 600px) {
 	main {
+		height: fit-content;
 		padding: 0 20px;
 	}
 	.product {
