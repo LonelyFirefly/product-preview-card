@@ -128,7 +128,7 @@ main {
 @media screen and (max-width: 600px) {
 	main {
 		height: fit-content;
-		padding: 0 20px;
+		padding: 80px 20px;
 	}
 	.product {
 		display: flex;
